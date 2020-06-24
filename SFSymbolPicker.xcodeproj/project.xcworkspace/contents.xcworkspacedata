@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SFSymbolPicker.xcodeproj">
+      location = "self:/Users/aritropaul/Documents/Codes/iOS/SFSymbolPicker/SFSymbolPicker.xcodeproj">
    </FileRef>
 </Workspace>

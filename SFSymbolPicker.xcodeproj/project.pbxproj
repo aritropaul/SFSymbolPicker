@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3013356A24A370D000734DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013356924A370D000734DA0 /* AppDelegate.swift */; };
-		3013356C24A370D000734DA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013356B24A370D000734DA0 /* SceneDelegate.swift */; };
-		3013356E24A370D000734DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013356D24A370D000734DA0 /* ViewController.swift */; };
 		3013357124A370D000734DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3013356F24A370D000734DA0 /* Main.storyboard */; };
-		3013357324A370D200734DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3013357224A370D200734DA0 /* Assets.xcassets */; };
 		3013357624A370D200734DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3013357424A370D200734DA0 /* LaunchScreen.storyboard */; };
+		3013357E24A3710B00734DA0 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013357D24A3710B00734DA0 /* SFSymbols.swift */; };
+		3013358124A3716700734DA0 /* SymbolCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013358024A3716700734DA0 /* SymbolCollectionViewController.swift */; };
+		3013358324A371C100734DA0 /* SymbolCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013358224A371C100734DA0 /* SymbolCollectionViewCell.swift */; };
+		3013358524A37AAB00734DA0 /* SymbolPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013358424A37AAB00734DA0 /* SymbolPickerController.swift */; };
+		305A496624A383A600B51C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013356924A370D000734DA0 /* AppDelegate.swift */; };
+		305A496724A383A600B51C4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013356B24A370D000734DA0 /* SceneDelegate.swift */; };
+		305A496824A383A600B51C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013356D24A370D000734DA0 /* ViewController.swift */; };
+		305A496B24A3846B00B51C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305A496A24A3846B00B51C4B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +25,13 @@
 		3013356B24A370D000734DA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3013356D24A370D000734DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3013357024A370D000734DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3013357224A370D200734DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3013357524A370D200734DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3013357724A370D200734DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3013357D24A3710B00734DA0 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		3013358024A3716700734DA0 /* SymbolCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCollectionViewController.swift; sourceTree = "<group>"; };
+		3013358224A371C100734DA0 /* SymbolCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCollectionViewCell.swift; sourceTree = "<group>"; };
+		3013358424A37AAB00734DA0 /* SymbolPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPickerController.swift; sourceTree = "<group>"; };
+		305A496A24A3846B00B51C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +48,8 @@
 		3013355D24A370D000734DA0 = {
 			isa = PBXGroup;
 			children = (
-				3013356824A370D000734DA0 /* SFSymbolPicker */,
+				3013357F24A3714300734DA0 /* Sources */,
+				3013356824A370D000734DA0 /* Example */,
 				3013356724A370D000734DA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +62,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3013356824A370D000734DA0 /* SFSymbolPicker */ = {
+		3013356824A370D000734DA0 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				3013356924A370D000734DA0 /* AppDelegate.swift */,
 				3013356B24A370D000734DA0 /* SceneDelegate.swift */,
 				3013356D24A370D000734DA0 /* ViewController.swift */,
 				3013356F24A370D000734DA0 /* Main.storyboard */,
-				3013357224A370D200734DA0 /* Assets.xcassets */,
+				305A496A24A3846B00B51C4B /* Assets.xcassets */,
 				3013357424A370D200734DA0 /* LaunchScreen.storyboard */,
 				3013357724A370D200734DA0 /* Info.plist */,
 			);
-			path = SFSymbolPicker;
+			name = Example;
+			path = /Users/aritropaul/Documents/Codes/iOS/SFSymbolPicker/Example;
+			sourceTree = "<absolute>";
+		};
+		3013357F24A3714300734DA0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3013357D24A3710B00734DA0 /* SFSymbols.swift */,
+				3013358024A3716700734DA0 /* SymbolCollectionViewController.swift */,
+				3013358424A37AAB00734DA0 /* SymbolPickerController.swift */,
+				3013358224A371C100734DA0 /* SymbolCollectionViewCell.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3013357624A370D200734DA0 /* LaunchScreen.storyboard in Resources */,
-				3013357324A370D200734DA0 /* Assets.xcassets in Resources */,
+				305A496B24A3846B00B51C4B /* Assets.xcassets in Resources */,
 				3013357124A370D000734DA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3013356E24A370D000734DA0 /* ViewController.swift in Sources */,
-				3013356A24A370D000734DA0 /* AppDelegate.swift in Sources */,
-				3013356C24A370D000734DA0 /* SceneDelegate.swift in Sources */,
+				305A496624A383A600B51C4B /* AppDelegate.swift in Sources */,
+				305A496724A383A600B51C4B /* SceneDelegate.swift in Sources */,
+				305A496824A383A600B51C4B /* ViewController.swift in Sources */,
+				3013357E24A3710B00734DA0 /* SFSymbols.swift in Sources */,
+				3013358124A3716700734DA0 /* SymbolCollectionViewController.swift in Sources */,
+				3013358524A37AAB00734DA0 /* SymbolPickerController.swift in Sources */,
+				3013358324A371C100734DA0 /* SymbolCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +308,9 @@
 		3013357B24A370D200734DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J3WW2KWBU;
-				INFOPLIST_FILE = SFSymbolPicker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,10 +325,9 @@
 		3013357C24A370D200734DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J3WW2KWBU;
-				INFOPLIST_FILE = SFSymbolPicker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

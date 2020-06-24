@@ -29,6 +29,5 @@ extension ViewController : SymbolPickerDelegate {
         iconView.image = UIImage(systemName: name)
     }
     
-    
 }
 
